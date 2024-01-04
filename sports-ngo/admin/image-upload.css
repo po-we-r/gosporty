@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div {
+    background-color: #eee;
+    border-radius: .5em;
+    width: 70%;
+    height: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    border: 1px solid #333;
+}
+input[type=text]{
+    height: 3em;
+    padding: .5em;
+    display: block;
+    width: 90%;
+    border-radius: .4em;
+}
+.custom-file-input {
+    position: relative;
+    width: 150px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    overflow: hidden;
+    background-color: #eaeaea; /* Background color */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    color: #333; /* Text color */
+    cursor: pointer;
+  }
+  
+  .custom-file-input .custom-file-label {
+    display: block;
+    padding: 10px;
+  }
+  
+  .real-file-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+textarea {
+    height: 4em;
+    border: 1px solid #999;
+    width: 90%;
+    padding: .5em;
+    border-radius: .4em;
+}
+button {
+    color: #fff;
+	border: none;
+	height: 3em;
+	width: 8em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #1d4fd7;
+	float: right;
+	margin-top: 3em;
+	border-radius: .4em;
+}

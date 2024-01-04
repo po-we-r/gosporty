@@ -1,0 +1,35 @@
+@media only screen and (max-width: 670px){
+  body {
+    overflow-x: hidden;
+  }
+   header {
+    flex-direction: row;
+    padding-left: 2em;
+    padding-right: 2em;
+   }
+   header .first-display .big-header {
+    font-size: 3em;
+    margin-bottom: .5em;
+    }
+   nav {
+    display: flex;
+    justify-content: space-between;
+   }
+   .nav-links{
+    display: none;
+   }
+   .partners {
+    padding-left: 2em;
+   }
+   .partners h1 {
+    font-size: 3em;
+   }
+   .partner-list {
+    grid-template-columns: repeat(2, 1fr);
+   }
+   .countdown-container {
+    flex-direction: column;
+    row-gap: 2em;
+    height: 30em;
+   }
+}

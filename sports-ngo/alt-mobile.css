@@ -1,0 +1,30 @@
+@media only screen and (max-width: 670px){
+    body {
+      overflow-x: hidden;
+    }
+     
+     nav {
+      display: flex;
+      justify-content: space-between;
+     }
+     .nav-links{
+      display: none;
+     }
+     .partners {
+      padding-left: 2em;
+     }
+     .partners h1 {
+      font-size: 3em;
+     }
+     .partner-list {
+      grid-template-columns: repeat(2, 1fr);
+     }
+     .countdown-container {
+      flex-direction: column;
+      row-gap: 2em;
+      height: 34em;
+     }
+     .contact-faq {
+      flex-direction: column;
+     }
+  }

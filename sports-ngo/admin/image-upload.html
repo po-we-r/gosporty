@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload Image to Firestore</title>
+  <link rel="stylesheet" href="./image-upload.css">
+</head>
+<body>
+  <div>
+    <div class="custom-file-input">
+      <label for="file-upload" class="custom-file-label">Choose a file...</label>
+      <input type="file" id="imageInput" class="real-file-input" />
+    </div>
+  <br>
+  <input type="text" id="titleInput" placeholder="Title">
+  <br>
+  <textarea id="descriptionInput" placeholder="Tag"></textarea>
+  <br>
+  <button onclick="uploadImage()">Upload</button>
+
+  </div>
+  
+  <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-storage.js"></script>
+  <script src="./image-upload.js"></script>
+</body>
+</html>
